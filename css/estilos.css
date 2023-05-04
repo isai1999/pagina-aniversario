@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 2px 2px 2px white;
+}
+
+form{
+    width: 90%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.13);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+label{
+    color: white;
+    font-family: 'exo';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    font-size: 16px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    background: #ff00b3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background: #ce0090;;
+}
+
+
+/* otros estilos */
+.roto{
+    text-align: center;
+}
+
+.roto a{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.acertado{
+    text-align: center;
+}
+.acertado a{
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+.acertado img{
+    max-width: 100%;
+}
